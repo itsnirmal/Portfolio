@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Default = () => {
     return (
-    <div className="flex flex-col h-full flex items-center justify-center">
+    <div className="flex flex-col h-full items-center justify-center">
         <p className="text-5xl h-16 font-semibold">Nirmal Gautam</p>
         <p className="text-xl h-10">Computer Science Junior</p>
         <table>
