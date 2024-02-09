@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link, NavLink } from 'react-router-dom'
 import { faUser, faDiagramProject, faFile } from '@fortawesome/free-solid-svg-icons'
+import Pdf from '../assets/resume.pdf';
 
 const Navbar = () => (
     <div className = "bg-zinc-900 w-screen h-14 top-0 z-3 absolute flex items-center">
@@ -16,7 +17,7 @@ const Navbar = () => (
                 <FontAwesomeIcon icon={faDiagramProject} color = "white" />           
                 <span className="mx-2 my-auto font-bold">Projects</span>
             </NavLink>
-            <a className = "transition-all ease-in-out delay-150 hover:underline5" target = "_blank" rel = "noreferrer" href="https://www.linkedin.com/in/nirmal-gautam/details/featured/1707151875814/single-media-viewer/?profileId=ACoAADR_d_0BmHHZlm7jmq8DrLbrR8w3Ani0Pa4">
+            <a className = "transition-all ease-in-out delay-150 hover:underline5" target = "_blank" rel = "noreferrer" href={Pdf}>
             <FontAwesomeIcon icon={faFile} color = "white" />
             <span className="mx-2 my-auto font-bold">Resume</span>
             </a>

@@ -2,10 +2,8 @@
 const Resume = () => {
     return (
     <div className="flex flex-col h-full w-auto mx-40 justify-center  tracking-wider">
-                <span className="font-bold text-5xl">Resume</span>
-                <hr className= "mt-8 mb-2"></hr>
-                <p className="text-right font-serif italic text-gray-200">Turn coffee into code</p>
-                <hr className= "mt-4"></hr>
+            <iframe src="./assets/resume.pdf" title="Resume" width="100%" height="500px"></iframe>
+                    
 
         </div>
     );
