@@ -7,7 +7,7 @@ import Navbar from './components/Navbar.js';
 
 function App() {
   return (
-    <main className='bg-neutral-800 w-screen h-screen text-gray-400 font-ser'>
+    <main className='bg-neutral-800 w-screen h-screen text-gray-300 font-ser'>
           <Navbar />
           <Routes>
                   <Route exact path="/" element={<Default />} />
