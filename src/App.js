@@ -2,7 +2,6 @@ import { Routes, Route } from 'react-router-dom';
 import Default from './components/Default.js';
 import About from './components/About.js';
 import Projects from './components/Projects.js';
-import Resume from './components/Resume.js';
 import Navbar from './components/Navbar.js';
 
 function App() {
@@ -13,7 +12,7 @@ function App() {
                   <Route exact path="/" element={<Default />} />
                   <Route exact path="/About" element={<About />} />
                   <Route exact path="/Projects" element={<Projects />} />
-                  <Route exact path="/Resume" element={<Resume />} />
+        
           </Routes>
     </main>
   );
